@@ -45,7 +45,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
   ### Result 
 
 
-  <img width="593" alt="Screen Shot 2020-08-07 at 00 15 36" src="https://user-images.githubusercontent.com/55970064/89611561-272eac00-d843-11ea-985a-a5bac8e09a4d.png">
+  <img width="493" alt="Screen Shot 2020-08-07 at 00 15 36" src="https://user-images.githubusercontent.com/55970064/89611561-272eac00-d843-11ea-985a-a5bac8e09a4d.png">
 
 
 ------------------------------------------------
@@ -73,6 +73,6 @@ You will be give a set of poll data called election_data.csv. The dataset is com
   ### Result
   
   
-  <img width="329" alt="Screen Shot 2020-08-07 at 00 17 09" src="https://user-images.githubusercontent.com/55970064/89611663-5ba26800-d843-11ea-95fa-5a8264997835.png">
+  <img width="289" alt="Screen Shot 2020-08-07 at 00 17 09" src="https://user-images.githubusercontent.com/55970064/89611663-5ba26800-d843-11ea-95fa-5a8264997835.png">
 
 
