@@ -6,11 +6,8 @@ import os
 candidate_list = []
 candidate_votes = []
 total_votes = 0  
-#election_data = ["1", "2"]
 
-# start for loop 
-#for files in election_data: 
-    # create variable for the path
+# create variable for the path
 poll_path = os.path.join("Resources", "election_data.csv")
 
 # read csv data
@@ -50,6 +47,12 @@ with open(poll_path) as csv_file:
             max_index = i
     winner = candidate_list[max_index]
 
+    candidate_percentage_vote = {}
+    candidate_percentage_vote["names"] = candidate_list
+    candidate_percentage_vote["percent"] = candidate_percentages
+    candidate_percentage_vote["counts"] = candidate_votes
+    # print(candidate_percentage_vote)
+ 
     # print results
     print("Election Results")
     print("-----------------------------")
@@ -60,3 +63,18 @@ with open(poll_path) as csv_file:
     print("-----------------------------")
     print(f"Winner:  {winner}")
     print("-----------------------------")
+
+# generate output
+
+# save the results to analysis text file
+write_path = os.path.join("analysis","py_poll_result.txt")
+with open(write_path, "w") as file: 
+    file.write("Election Results\n")
+    file.write("-----------------------------\n")
+    file.write(f"Total Votes: {total_votes} \n")
+    file.write("-----------------------------\n")
+    for i in range(len(candidate_list)):
+        file.write(f"{candidate_list[i]}: {candidate_percentages[i]}% ({candidate_votes[i]})\n")
+    file.write("-----------------------------\n")
+    file.write(f"Winner:  {winner}\n")
+    file.write("-----------------------------")
