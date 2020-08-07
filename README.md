@@ -18,7 +18,7 @@
 
   - An "analysis" folder that contains your text file that has the results from your analysis.
 
-- Push the above changes to GitHub or GitLab.
+- Push the above changes to GitHub 
 
 
 ----------------------------------
