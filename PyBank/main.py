@@ -52,8 +52,20 @@ print(f"Greatest Increase in Profits: {max_increase_date} (${max_increase})")
 print(f"Greatest Decrease in Profits: {max_decrease_date} (${max_decrease})")
 
 # spcify the file to write to
-# write_path = os.path.join("analysis","py_bank_result.txt")
+write_path = os.path.join("analysis","py_bank_result.txt")
 
-# # export txt file with the" results
-# with open(write_path, "w") as file
-# 	file.write()
+# write results to a text file
+with open(write_path, "w") as file: 
+	file.write("Financial Analysis: ")
+	file.write("\n")
+	file.write("--------------------------------------------------------")
+	file.write("\n")
+	file.write(f"Total Months: {len(total_month)}")
+	file.write("\n")
+	file.write(f"Total: ${sum(total_profits)}")	
+	file.write("\n")
+	file.write(f"Average Change: ${average_profits}")	
+	file.write("\n")
+	file.write(f"Greatest Increase in Profits: {max_increase_date} (${max_increase})")
+	file.write("\n")
+	file.write(f"Greatest Decrease in Profits: {max_decrease_date} (${max_decrease})")
