@@ -64,8 +64,6 @@ with open(poll_path) as csv_file:
     print(f"Winner:  {winner}")
     print("-----------------------------")
 
-# generate output
-
 # save the results to analysis text file
 write_path = os.path.join("analysis","py_poll_result.txt")
 with open(write_path, "w") as file: 
