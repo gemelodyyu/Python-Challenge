@@ -73,3 +73,6 @@ You will be give a set of poll data called election_data.csv. The dataset is com
   ### Result
   
   
+  <img width="329" alt="Screen Shot 2020-08-07 at 00 17 09" src="https://user-images.githubusercontent.com/55970064/89611663-5ba26800-d843-11ea-95fa-5a8264997835.png">
+
+
