@@ -45,6 +45,8 @@ Your task is to create a Python script that analyzes the records to calculate ea
   ### Result 
 
 
+  <img width="593" alt="Screen Shot 2020-08-07 at 00 15 36" src="https://user-images.githubusercontent.com/55970064/89611561-272eac00-d843-11ea-985a-a5bac8e09a4d.png">
+
 
 ------------------------------------------------
 
