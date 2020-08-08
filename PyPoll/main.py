@@ -46,12 +46,6 @@ with open(poll_path) as csv_file:
             max_vote = candidate_votes
             max_index = i
     winner = candidate_list[max_index]
-
-    candidate_percentage_vote = {}
-    candidate_percentage_vote["names"] = candidate_list
-    candidate_percentage_vote["percent"] = candidate_percentages
-    candidate_percentage_vote["counts"] = candidate_votes
-    # print(candidate_percentage_vote)
  
     # print results
     print("Election Results")
